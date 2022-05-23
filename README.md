@@ -17,7 +17,10 @@ Ascii-art-web consists in creating and running a server, in which it will be pos
 * To start the container using the image just created
     run on your terminal: docker container run -p 8080:8080 -detach --name <name_of_the_container> <name_of_image_ofyourchoice>
 * To see the containt of your container
-    run on your terminal docker exec -it <container_name> ls
+    run on your terminal: docker exec -it <container_name> ls
+* To stop and remove the container
+    run on your terminal: docker stop <container_name> then
+                          docker rm <container_name>
 
 ## Authors
 
